@@ -49,8 +49,8 @@ This project is configured to run on Google Colab. Satellite imagery used for tr
 ## Acknowledgements
 Special thanks to Zindi for organizing this challenge and providing the opportunity to work on a meaningful geospatial project. We also extend our gratitude to the Google Earth Engine for providing access to high-quality satellite imagery. 
 
-### TerraPulse Team
-[Pascal Fortrin](https://github.com/Pascal-Fortin)
-[Shruti Mukhtyar](https://github.com/mukhtyar)
-[Dylan Manchester](https://github.com/dylan-manchester)
-[Liang Chow](https://github.com/liangchow)
+### TerraPulse Team Members
+- [Pascal Fortrin](https://github.com/Pascal-Fortin)
+- [Shruti Mukhtyar](https://github.com/mukhtyar)
+- [Dylan Manchester](https://github.com/dylan-manchester)
+- [Liang Chow](https://github.com/liangchow)
