@@ -13,6 +13,9 @@ This project is Team TerraPulse contribution to the challege. We use a combinati
 5. [Usage Instructions](#UsageInstructions)
 6. [Acknowledgments](#Acknowledgments)
 
+## Coding Environment
+This project was developed using the Google environment and GitHub. Google Colab for coding. Google Drive for storing training data, masks, and test AOI images. Google Earth Engine was used to download all the Sentinel 1&2 data for training and inference. GitHub was used as repository and version control.
+
 ## Data Description
 This project uses the following data sources:
 - Sentinel-1 Satellite Imagery:
