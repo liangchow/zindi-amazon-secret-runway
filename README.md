@@ -26,17 +26,19 @@ This project uses the following data sources:
 - Augmentation:
 
 ## Model Architecture
-
+UNET with special encoder
 
 ## Environment Setup
 This project is configured to run on Google Colab. Satellite imagery used for training and inference is stored on Google Drive.
 
 ## Usage Instructions
-- Training Data Preparation:
+- Data Preparation:
     - Run ??.ipynb to download satellite data for training and inference
+    - Run .pynpb to remove border columns with NaN values
+    - Generate masks
 
 - Model Training:
-    - Run the notebook [zindi_airstrip_training.ipynb](https://github.com/liangchow/zindi-amazon-secret-runway/blob/main/zindi_airstrip_training.ipynb) to start training the model.
+    - Run the notebook [zindi_airstrip_training.ipynb](https://github.com/liangchow/zindi-amazon-secret-runway/blob/main/zindi_airstrip_training.ipynb) to train the model.
 
 - Inference:
     - Run [zindi_airstrip_prediction.ipynb](https://github.com/liangchow/zindi-amazon-secret-runway/blob/main/zindi_airstrip_prediction.ipynb) to generate predictions on new satellite images. Results will be saved in Google Colab runtime.
