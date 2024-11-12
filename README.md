@@ -6,11 +6,12 @@ The [Amazon Basin Secret Runway Detection Challenge](https://zindi.africa/compet
 This project is Team TerraPulse contribution to the challege. We use a combination of data preprocessing, deep learning, and geospatial analysis techniques to accurately locate potential airstrips.
 
 ## Table of contents
-1. [Data Description](#DataDescription)
-2. [Model Architecture](#ModelArchitecture)
-3. [Environment Setup](#EnvironmentSetup)
-4. [Usage Instructions](#UsageInstructions)
-5. [Acknowledgments](#Acknowledgments)
+1. [Coding Environment](#CodingEnvironment)
+2. [Data Description](#DataDescription)
+3. [Model Architecture](#ModelArchitecture)
+4. [Environment Setup](#EnvironmentSetup)
+5. [Usage Instructions](#UsageInstructions)
+6. [Acknowledgments](#Acknowledgments)
 
 ## Data Description
 This project uses the following data sources:
