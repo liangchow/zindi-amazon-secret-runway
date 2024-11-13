@@ -18,7 +18,7 @@ This project was developed using the Google environment and GitHub. Google Colab
 
 ## Data Description
 This project uses the following data sources:
-- Sentinel-1 Satellite Imagery:
+- Sentinel-1 Satellite Imagery: Synthetic Aperture Radar (SAR) images. Data from the VV and VH bands are used for this project.
 - Sentinel-2 Satellite Imagery:
 - Sample Illegal Runways:
 - Road Network: 
