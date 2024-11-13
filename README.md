@@ -38,7 +38,7 @@ UNET with ResNet50 encoder and ImageNet pre-trained weights for RGB bands. The c
     - Run [utils/Generate_airstrip_masks.ipynb](https://github.com/liangchow/zindi-amazon-secret-runway/blob/main/utils/Generate_airstrip_masks.ipynb) to generate masks for training.
 
 - Model Training:
-    - Run the notebook [zindi_airstrip_training.ipynb](https://github.com/liangchow/zindi-amazon-secret-runway/blob/main/zindi_airstrip_training.ipynb) to train the model.
+    - Run [zindi_airstrip_training.ipynb](https://github.com/liangchow/zindi-amazon-secret-runway/blob/main/zindi_airstrip_training.ipynb) to train the model.
 
 - Inference:
     - Run [zindi_airstrip_prediction.ipynb](https://github.com/liangchow/zindi-amazon-secret-runway/blob/main/zindi_airstrip_prediction.ipynb) to generate predictions on new satellite images. Results will be saved in Google Colab runtime.
