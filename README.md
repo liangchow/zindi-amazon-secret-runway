@@ -45,7 +45,6 @@ UNET with ResNet50 encoder and ImageNet pre-trained weights for RGB bands. The c
 
 - Post-processing:
     - Use [image_cleaning.ipynb](https://github.com/liangchow/zindi-amazon-secret-runway/blob/main/image_cleaning.ipynb) to remove roads and add buffers to predicted runways
-    - Use [image_pred_stats.ipynb](https://github.com/liangchow/zindi-amazon-secret-runway/blob/main/image_pred_stats.ipynb) to create prediction csv
 
 
 ## Acknowledgements
