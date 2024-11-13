@@ -19,7 +19,7 @@ This project was developed using the Google environment and GitHub. Google Colab
 ## Data Description
 This project uses the following data sources:
 - Sentinel-1 Satellite Imagery: Synthetic Aperture Radar (SAR) images. Data from the VV and VH bands are used for this project.
-- Sentinel-2 Satellite Imagery:
+- Sentinel-2 Satellite Imagery: The S2 Multispectral Instrument (MSI) samples 13 spectral bands: visible, NIR, red edge and Short Wave Infra-Red (SWIR), and atmospheric bands. The visible, NIR and SWIR bands were used for this project, a total of 6 bands.
 - Sample Illegal Runways:
 - Road Network: 
 
