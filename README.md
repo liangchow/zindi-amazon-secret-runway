@@ -9,12 +9,11 @@ This project is Team TerraPulse contribution to the challege. We use a combinati
 1. [Coding Environment](#CodingEnvironment)
 2. [Data Description](#DataDescription)
 3. [Model Architecture](#ModelArchitecture)
-4. [Environment Setup](#EnvironmentSetup)
-5. [Usage Instructions](#UsageInstructions)
-6. [Acknowledgments](#Acknowledgments)
+4. [Usage Instructions](#UsageInstructions)
+5. [Acknowledgments](#Acknowledgments)
 
 ## Coding Environment
-This project was developed using the Google environment and GitHub. Google Colab for coding. Google Drive for storing training data, masks, and test AOI images. Google Earth Engine was used to download all the Sentinel 1 and 2 data for training and inference. GitHub was used as repository and version control.
+This project was developed using the Google environment and GitHub. Google Colab for coding. Google Drive for storing training data, masks, and test AOI images. Google Earth Engine (GEE) was used to download all the Sentinel 1 and 2 data for training and inference. GitHub was used as repository and version control.
 
 ## Data Description
 This project uses the following data sources:
@@ -24,16 +23,13 @@ This project uses the following data sources:
 - Road Network: Open Street Map (OSM) geospatial data were used for this project to identify roads during the image cleaning process.
 
 ## Data Processing:
-- Band Selection:
-- Cropping:
-- Normalization:
-- Augmentation:
+- Bands Selection: Sentinel 1 and 2 data were merged using GEE and a total of 9 bands are available for all images (training and inference).
+- Cropping: Training images are 512px x 512px at 10m/px resolution. The inference images match the bounding boxes provided by the Zindi team.
+- Normalization: The RGB channels are normalized to the ImageNet values. The other bands are normalized to the mean / std values of the entire training set. See utils/Calculate Channel Stats.ipynb for details.
+- Augmentation: Standard data augmentation methods are used, including random cropping to 224px x 224px, rotation / flips, normalization, etc.
 
 ## Model Architecture
-UNET with special encoder
-
-## Environment Setup
-This project is configured to run on Google Colab. Satellite imagery used for training and inference is stored on Google Drive.
+UNET with ResNet50 encoder and ImageNet pre-trained weights for RGB bands. The code supports additional bands beyond the RGB channels and the optimizer supports different learning rates for the additional bands.
 
 ## Usage Instructions
 - Data Preparation:
