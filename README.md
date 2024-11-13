@@ -34,8 +34,8 @@ UNET with ResNet50 encoder and ImageNet pre-trained weights for RGB bands. The c
 ## Usage Instructions
 - Data Preparation:
     - Run [Data_Visualization/explore_sentinel_data.ipynb](https://github.com/liangchow/zindi-amazon-secret-runway/blob/main/Data_Visualization/explore_sentinel_data.ipynb) to download satellite data for training and inference
-    - Run utils/GeoTIFF modifications.ipynb to remove border columns with NaN values
-    - Run utils/Generate_airstrip_masks.ipynb to generate masks for training.
+    - Run [utils/GeoTIFF modifications.ipynb](https://github.com/liangchow/zindi-amazon-secret-runway/blob/main/utils/GeoTIFF modifications.ipynb) to remove border columns with NaN values
+    - Run [utils/Generate_airstrip_masks.ipynb](https://github.com/liangchow/zindi-amazon-secret-runway/blob/main/utils/Generate_airstrip_masks.ipynb) to generate masks for training.
 
 - Model Training:
     - Run the notebook [zindi_airstrip_training.ipynb](https://github.com/liangchow/zindi-amazon-secret-runway/blob/main/zindi_airstrip_training.ipynb) to train the model.
