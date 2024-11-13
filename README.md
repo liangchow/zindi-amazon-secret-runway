@@ -41,10 +41,10 @@ UNET with ResNet50 encoder and ImageNet pre-trained weights for RGB bands. The c
     - Run [zindi_airstrip_training.ipynb](https://github.com/liangchow/zindi-amazon-secret-runway/blob/main/zindi_airstrip_training.ipynb) to train the model.
 
 - Inference:
-    - Run [zindi_airstrip_prediction.ipynb](https://github.com/liangchow/zindi-amazon-secret-runway/blob/main/zindi_airstrip_prediction.ipynb) to generate predictions on new satellite images. Results will be saved in Google Colab runtime.
+    - Run [zindi_airstrip_prediction.ipynb](https://github.com/liangchow/zindi-amazon-secret-runway/blob/main/zindi_airstrip_prediction.ipynb) to generate predictions on new satellite images. Results will be saved in Google Colab runtime. (time to run 4 minutes 31 seconds)
 
 - Post-processing:
-    - Use [image_cleaning.ipynb](https://github.com/liangchow/zindi-amazon-secret-runway/blob/main/image_cleaning.ipynb) to remove roads and add buffers to predicted runways
+    - Use [image_cleaning.ipynb](https://github.com/liangchow/zindi-amazon-secret-runway/blob/main/image_cleaning.ipynb) to remove roads and add buffers to predicted runways (time to run 43 seconds)
 
 
 ## Acknowledgements
